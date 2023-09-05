@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* تغيير لون الخلفية إلى لون داكن */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: #333; /* تغيير لون خلفية العنصر الرئيسي */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* زيادة الظل */
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    color: #0074d9; /* لون عنوان مخصص */
+    font-size: 28px; /* زيادة حجم العنوان */
+    margin-bottom: 20px;
+}
+
+/* Input Styles */
+input {
+    padding: 12px; /* زيادة حجم حقل الإدخال */
+    font-size: 18px;
+    border: 2px solid #0074d9;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 24px; /* زيادة حجم الأزرار */
+    font-size: 18px;
+    background-color: #ff5733; /* لون خلفية الأزرار */
+    color: #fff; /* لون النص */
+    border: none;
+    border-radius: 8px; /* زيادة دائرة الزوايا */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4500; /* لون خلفية الأزرار عند التمرير فوقها */
+}
